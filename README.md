@@ -14,6 +14,7 @@ and ratings. We also had to be able to search for each of these.
 - list all ratings, Movies and users
 - Remove a user or a movie
 - Remove all movies
+- search for movie and user by name
 
 # Installation requirements
 - Java JRE v1.8
@@ -59,14 +60,16 @@ LikeMovies/Melody> ?list
 Name	Abbr	ArgNum	Descr
 get-user	gu	1	serach for a user
 get-movie	gm	1	search for a Movie
-add-movie	am	3	Create a new movie
-add-rating	ar	3	Create a new rating
-remove-user	ru	1	removes a user
-remove-movie	rm	1	Remove a Movie
+get-movie-name	gmn	1	get movie by name
+list-users	lu	0	lists users
 remove-all-movies	ram	0	Remove all movies
 list-ratings	lr	0	list All Ratings
-get-movie-list	gml	0	List all movies
+remove-user	ru	1	removes a user
+add-rating	ar	3	Create a new rating
 add-user	au	7	Create a new user
-list-users	lu	0	lists users
+get-movie-list	gml	0	List all movies
+get-user-by-name	gubn	1	get user by name
+remove-movie	rm	1	Remove a Movie
+add-movie	am	3	Create a new movie
 LikeMovies/Melody> 
 ```
